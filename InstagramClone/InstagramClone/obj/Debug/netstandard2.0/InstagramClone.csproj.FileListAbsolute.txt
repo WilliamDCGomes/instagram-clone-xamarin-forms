@@ -1,0 +1,16 @@
+C:\Users\willi\Desktop\InstagramClone\InstagramClone\InstagramClone\bin\Debug\netstandard2.0\InstagramClone.deps.json
+C:\Users\willi\Desktop\InstagramClone\InstagramClone\InstagramClone\bin\Debug\netstandard2.0\InstagramClone.dll
+C:\Users\willi\Desktop\InstagramClone\InstagramClone\InstagramClone\bin\Debug\netstandard2.0\ref\InstagramClone.dll
+C:\Users\willi\Desktop\InstagramClone\InstagramClone\InstagramClone\bin\Debug\netstandard2.0\InstagramClone.pdb
+C:\Users\willi\Desktop\InstagramClone\InstagramClone\InstagramClone\obj\Debug\netstandard2.0\InstagramClone.csprojAssemblyReference.cache
+C:\Users\willi\Desktop\InstagramClone\InstagramClone\InstagramClone\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\willi\Desktop\InstagramClone\InstagramClone\InstagramClone\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\willi\Desktop\InstagramClone\InstagramClone\InstagramClone\obj\Debug\netstandard2.0\InstagramClone.AssemblyInfoInputs.cache
+C:\Users\willi\Desktop\InstagramClone\InstagramClone\InstagramClone\obj\Debug\netstandard2.0\InstagramClone.AssemblyInfo.cs
+C:\Users\willi\Desktop\InstagramClone\InstagramClone\InstagramClone\obj\Debug\netstandard2.0\InstagramClone.csproj.CoreCompileInputs.cache
+C:\Users\willi\Desktop\InstagramClone\InstagramClone\InstagramClone\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\willi\Desktop\InstagramClone\InstagramClone\InstagramClone\obj\Debug\netstandard2.0\InstagramClone.dll
+C:\Users\willi\Desktop\InstagramClone\InstagramClone\InstagramClone\obj\Debug\netstandard2.0\ref\InstagramClone.dll
+C:\Users\willi\Desktop\InstagramClone\InstagramClone\InstagramClone\obj\Debug\netstandard2.0\InstagramClone.pdb
+C:\Users\willi\Desktop\InstagramClone\InstagramClone\InstagramClone\obj\Debug\netstandard2.0\LoginPages\Login.xaml.g.cs
+C:\Users\willi\Desktop\InstagramClone\InstagramClone\InstagramClone\obj\Debug\netstandard2.0\Pages\Home.xaml.g.cs

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             BackgroundColor="Black"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="InstagramClone.LoginPages.Login">
+    <ContentPage.Content>
+        <Grid RowSpacing="10" Margin="20, 0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="25*"/>
+                <RowDefinition Height="30*"/>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="15*"/>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="5*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="8*"/>
+                <ColumnDefinition />
+                <ColumnDefinition Width="8*"/>
+            </Grid.ColumnDefinitions>
+            <Picker x:Name="LanguagePicker" Grid.Row="0" Grid.ColumnSpan="3" TextColor="#7A7A7A" Title="SELECT YOUR LANGUAGE" VerticalOptions="Center" HorizontalTextAlignment="Center" FontSize="16" >
+                <Picker.Items>
+                    <x:String>English (United States)</x:String>
+                    <x:String>Afrikaans</x:String>
+                    <x:String>Bahasa Indonesia</x:String>
+                    <x:String>Bahasa Melayu</x:String>
+                    <x:String>Dansk</x:String>
+                    <x:String>Deutsch</x:String>
+                    <x:String>English (UK)</x:String>
+                    <x:String>Español</x:String>
+                    <x:String>Español (España)</x:String>
+                    <x:String>Filipino</x:String>
+                    <x:String>Français (Canada)</x:String>
+                    <x:String>Français (France)</x:String>
+                    <x:String>Hrvatski</x:String>
+                    <x:String>Italiano</x:String>
+                    <x:String>Magyar</x:String>
+                    <x:String>Nederlands</x:String>
+                    <x:String>Norsk (bokmâl)</x:String>
+                    <x:String>Polski</x:String>
+                    <x:String>Português (Brasil)</x:String>
+                    <x:String>Português (Portugal)</x:String>
+                    <x:String>Românã</x:String>
+                    <x:String>Slovencina</x:String>
+                    <x:String>Suomi</x:String>
+                    <x:String>Svenska</x:String>
+                </Picker.Items>
+            </Picker>
+            <Image Source="LogoBlack" Grid.Row="1" Grid.ColumnSpan="3" Margin="0, 25, 0, 0" VerticalOptions="End"/>
+            <Grid Grid.Row="2" Grid.ColumnSpan="3" Padding="5" RowSpacing="15">
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                
+                <Frame StyleClass="EntryFrame" Grid.Row="0">
+                    <Entry x:Name="EntryLogin" Placeholder="Phone number, email or username" PlaceholderColor="#7A7A7A" TextColor="White" BackgroundColor="#363636" TextChanged="VerificaEntradas"/>
+                </Frame>
+                <Frame StyleClass="EntryFrame" Grid.Row="1">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="9*"/>
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Entry x:Name="EntryPassword" Grid.Column="0" Placeholder="Password" PlaceholderColor="#7A7A7A" TextColor="White" IsPassword="True" TextChanged="VerificaEntradas"/>
+                        <ImageButton Source="ShowPasswordGray" x:Name="ShowPasswordImage" Grid.Column="1" HeightRequest="25" WidthRequest="25" BackgroundColor="Transparent" HorizontalOptions="End" Clicked="EventShowPassword"/>
+                    </Grid>
+                </Frame>
+                <Button x:Name="ButtonLogin" Text="Log in" TextColor="#7A7A7A" FontSize="15" Grid.Row="2" BackgroundColor="#002D4A" CornerRadius="5" Clicked="DoLogin"/>
+            </Grid>
+            <Label TextColor="White" HorizontalTextAlignment="Center" Grid.Row="3" FontSize="10" Grid.ColumnSpan="3" >
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Forgot your login details? "  TextColor="#7A7A7A"/>
+                        <Span Text="Get help logging in." FontAttributes="Bold" TextColor="White"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <BoxView HeightRequest="1" WidthRequest="160" Grid.Row="4" Grid.Column="0" Color="#363636" VerticalOptions="Center" HorizontalOptions="End"/>
+            <Label Text="OR" TextColor="#7A7A7A" HorizontalTextAlignment="Center" Grid.Row="4" Grid.Column="1" VerticalTextAlignment="Center" VerticalOptions="Center"/>
+            <BoxView  HeightRequest="1" WidthRequest="160" Grid.Row="4" Grid.Column="2" Color="#363636" VerticalOptions="Center" HorizontalOptions="Start"/>
+            <Button ImageSource="facebookLogo" Text="Log in with Facebook" BackgroundColor="Transparent" TextColor="#3B5998" Grid.Row="5" Grid.ColumnSpan="3" HorizontalOptions="Center" VerticalOptions="Start"/>
+            <BoxView Grid.Row="6" Grid.ColumnSpan="3" Color="#363636" HeightRequest="1" WidthRequest="400" VerticalOptions="Center" HorizontalOptions="Start"/>
+            <Label TextColor="White" HorizontalTextAlignment="Center" Grid.Row="7" FontSize="12" Grid.ColumnSpan="3" >
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Don't have an account? " TextColor="#7A7A7A" />
+                        <Span Text="Sign up." FontAttributes="Bold" TextColor="White"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
